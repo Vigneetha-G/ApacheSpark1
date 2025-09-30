@@ -1,4 +1,4 @@
-# ⚡️ Apache Spark:
+# ⚡️ Apache Spark
 
 Apache Spark is a powerful **distributed computing engine** and a **Big Data framework**. It processes data in a distributed manner, enabling **massive parallel processing**.
 
@@ -62,6 +62,8 @@ The architecture follows a **Master-Slave model**
 
 * **Photon**: Databricks' next-gen query engine.
 * **Performance**: Written in C++ (instead of only JVM/Scala), speeds up Spark SQL and DataFrame processing.
+* **Data Format Compatibility**: Optimized for columnar formats like **Delta Lake**, **Parquet**, as well as **CSV** and **JSON** for stateless streaming.
+
 
 ### Example Spark Session
 ```python
